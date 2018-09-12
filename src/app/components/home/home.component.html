@@ -1,0 +1,5 @@
+<div id='ETFrame'>
+
+</div>
+<button *ngIf = "!questionLoaded" (click)="load_tool(2)">LOAD FBD</button>
+<button *ngIf='questionLoaded' (click)="saveState(2)">Save</button>
